@@ -1,0 +1,22 @@
+p {
+    color: #257b7d;
+    line-height: 1.1;
+    letter-spacing: normal;
+    word-spacing: 2px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color:dimgrey
+}
+h1 {
+    color: #257b7d;
+    text-align:center;
+    text-decoration:underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
+    color: #395ebf;
+    text-decoration:none;
+}
