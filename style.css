@@ -1,9 +1,7 @@
-p {
-    color: #257b7d;
-    line-height: 1.1;
-    letter-spacing: normal;
-    word-spacing: 2px;
+body{
+    font-family: Ubuntu, Arial, Helvetica, sans-serif
 }
+
 h1, h2, h3, h4, h5, h6 {
     color:dimgrey
 }
@@ -19,4 +17,12 @@ h1 {
 a {
     color: #395ebf;
     text-decoration:none;
+}
+
+.highlight {
+    color: #ff2929;
+}
+
+#main-title {
+    color: #29ff69;
 }
