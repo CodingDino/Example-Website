@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    background-color:darkcyan;
+    background-color: darkcyan;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color:dimgrey
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: dimgrey;
 }
 h1 {
     color: #257b7d;
-    text-align:center;
-    text-decoration:underline;
+    text-align: center;
+    text-decoration: underline;
     text-transform: capitalize;
     font-weight: bold;
     font-style: italic;
@@ -23,7 +28,7 @@ h1 {
 
 a {
     color: #395ebf;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .highlight {
@@ -36,14 +41,14 @@ a {
 
 .banner {
     background-color: aquamarine;
-    
+
     border-width: 5px;
     border-style: solid;
     border-color: darkmagenta;
     border-radius: 8px;
-    
+
     width: 80%;
-    
+
     padding: 16px;
     margin: 25px;
 }
@@ -55,9 +60,8 @@ a {
     border: 2px solid #444;
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     box-sizing: border-box;
-    
 }
 
 .avatar {
@@ -72,6 +76,45 @@ a {
     max-width: 800px;
     background-color: aquamarine;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     padding: 50px;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+
+/* stuff that doesn't change */
+.navbutton {
+    background-color: cornsilk;
+    border: 2px dashed #444;
+
+    height: 60px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+/* default - mobile/phone */
+.navbutton {
+    width:100%;
+    margin:-2px;
+}
+
+/* tablet and up */
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: -4px;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1200px) {
+    .navbutton {
+        display: inline-block;
+        width: 150px;
+        margin: 10px;
+    }
 }
